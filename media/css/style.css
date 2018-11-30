@@ -1,0 +1,75 @@
+/* WL Menu Modul */
+
+
+#wl-menu-wrap {
+    background: #2a2a35;
+    width: 100%;
+    top: 0;
+    text-align: left;
+    transition: all 200ms;
+    height: 7rem;
+}
+
+#wl-menu-wrap nav.menu {
+    color: #c8354e;
+    display: inline-block;
+}
+
+#wl-menu-wrap nav.menu ul {
+    margin: 0;
+    padding: 0;
+    transition: all 300ms;
+    display: inline-block;
+}
+
+#wl-menu-wrap nav.menu ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    position: relative;
+    transition: all 300ms;
+}
+
+#wl-menu-wrap nav.menu ul li a {
+    display: inline-block;
+    padding: 2.17rem;
+    float: left;
+    min-width: 12rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 1px 0 0;
+    text-decoration: none;
+    background: #C8354E;
+    font-weight: 300;
+    transition: all 300ms;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wl-menu-wrap nav.menu ul li:hover > a {
+    background: #8c1e31;
+}
+
+#wl-menu-wrap nav.menu ul li ul {
+    overflow: hidden; /* Vor Position Absolute */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    transition: 900ms all;
+    max-height: 0;
+}
+
+#wl-menu-wrap nav.menu ul li ul.nav-child {
+    background-color: #C8354E;
+    border-radius: 0;
+}
+
+#wl-menu-wrap nav.menu ul li ul.nav-child li:hover {
+    background: #8c1e31;
+}
+
+#wl-menu-wrap nav.menu ul li:hover > ul {
+    max-height: 700px;
+}
