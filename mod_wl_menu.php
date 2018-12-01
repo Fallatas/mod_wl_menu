@@ -22,7 +22,6 @@ $path       = $base->tree;
 $showAll    = $params->get('showAllChildren');
 $class_sfx  = htmlspecialchars($params->get('class_sfx'), ENT_COMPAT, 'UTF-8');
 
-$textanzeige = $params->get('backgroundcolor');
 
 // Check for a custom CSS file
 JHtml::_('stylesheet', 'mod_wl_menu/user.css', array('version' => 'auto', 'relative' => true));

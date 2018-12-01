@@ -22,7 +22,7 @@ if ($tagId = $params->get('tag_id', ''))
 
 // The menu class is deprecated. Use nav instead
 
-echo $textanzeige;
+
 ?>
 <div id="wl-menu-wrap"><nav class="nav menu<?php echo $class_sfx; ?>"<?php echo $id; ?>><ul>
             <?php foreach ($list as $i => &$item)
